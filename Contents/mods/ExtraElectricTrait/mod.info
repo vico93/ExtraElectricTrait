@@ -1,0 +1,4 @@
+name=Extra Electrical Trait 
+poster=generic.png
+description=Adds two new traits. Geek adds level 1 Electrical for 4pts and tinkerer is level 2 Electrical for 6pts.
+id=ExtraElectricalTrait
