@@ -1,14 +1,14 @@
 module ExtraElectricTrait {
-    character_trait_definition Geek {
-        CharacterTrait = Geek,
+    character_trait_definition extraelectric:geek {
+        CharacterTrait = extraelectric:geek,
         UIName = UI_trait_geek,
         Cost = 4,
         UIDescription = UI_trait_geekdesc,
         XPBoosts = Electricity=1,
     }
 
-    character_trait_definition Tinkerer {
-        CharacterTrait = Tinkerer,
+    character_trait_definition extraelectric:tinkerer {
+        CharacterTrait = extraelectric:tinkerer,
         UIName = UI_trait_tinkerer,
         Cost = 6,
         UIDescription = UI_trait_tinkererdesc,
