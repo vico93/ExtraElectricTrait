@@ -1,0 +1,22 @@
+module ExtraElectricTrait
+{
+    character_trait_definition ExtraElectricTrait:Geek
+    {
+        CharacterTrait = ExtraElectricTrait:Geek,
+        Cost = 4,
+        UIName = UI_trait_geek,
+        UIDescription = UI_trait_geekdesc,
+        XPBoosts = Electricity=1,
+        Icon = trait_geek,
+    }
+
+    character_trait_definition ExtraElectricTrait:Tinkerer
+    {
+        CharacterTrait = ExtraElectricTrait:Tinkerer,
+        Cost = 6,
+        UIName = UI_trait_tinkerer,
+        UIDescription = UI_trait_tinkererdesc,
+        XPBoosts = Electricity=2,
+        Icon = trait_tinkerer,
+    }
+}
